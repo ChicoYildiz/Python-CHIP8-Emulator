@@ -96,9 +96,3 @@ Primarily for experimentation; not a stable serialization format.
 
 ## Sound
 A simple terminal bell (ASCII `\a`) fires when the sound timer transitions from 0 to active. Many terminals rate-limit or mute it; feel free to extend `sound.py` with richer audio (pygame mixer, simple square wave, etc.).
-
-## Testing Ideas
-Currently no formal tests included. Suggested paths:
-- Unit test opcode behaviour (register & flag outcomes)
-- Deterministic RNG seeding for predictable `Cxkk` tests
-- Golden-frame hashing for drawing instructions
