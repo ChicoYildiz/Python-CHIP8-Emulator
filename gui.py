@@ -1,10 +1,4 @@
-"""Hybrid controller that simply spawns the existing main.py emulator process.
-
-Goals:
-* Avoid duplicated emulator loop logic.
-* Use Tk only for ROM selection, speed presets, pause/resume (via POSIX signals), and restart.
-* Pass selected ROM + cycles_per_frame to main.py as subprocess.
-"""
+# Alternative system as GUI to spawn Pygame as subprocess (direct launch did not work on MacOS)
 import sys
 import os
 import signal
