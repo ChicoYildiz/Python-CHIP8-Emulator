@@ -1,11 +1,4 @@
-"""Entry point for running the CHIP-8 emulator directly.
-
-Usage:
-    python main.py <rom_file> [cycles_per_frame]
-
-You can alternatively launch the lightweight Tk GUI via:
-    python gui.py [rom_file]
-"""
+# Entry point for running the CHIP-8 emulator directly.
 import sys
 import time
 from emulator.emulator import Chip8, DEFAULT_CYCLES_PER_FRAME
